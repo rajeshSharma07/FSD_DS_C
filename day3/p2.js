@@ -18,8 +18,8 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify({ message: 'Invalid route' }));
     }
 });
-
+//ram
 server.listen(9001, (err) => {
     if (err) console.log("Error starting server", err);
-    else console.log("Server started on port 9000");
+    else console.log("Server started on port 9001");
 });

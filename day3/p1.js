@@ -8,7 +8,12 @@ const server=http.createServer((req,res)=>{
     }
     else if(req.url ==='/about'){
         res.end('<h1>welcome to about page</h1>');
-    }else{
+    }
+    else if(req.url ==='/contact'){
+        res.end('<h1>welcome to contact page</h1>');
+    }
+
+    else{
         res.end('<h1>page not found</h1>');
     }
 });
@@ -21,3 +26,4 @@ server.listen(9000,(err)=>{
 
     
 });
+//ram
