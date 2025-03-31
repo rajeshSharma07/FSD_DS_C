@@ -1,15 +1,17 @@
 {
   "name": "day4",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app2.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rajesh Sharma",
   "license": "ISC",
+  "description":"backend Server",
   "dependencies": {
     "express": "^4.21.2"
   }
 }
+
